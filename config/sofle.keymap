@@ -39,7 +39,7 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESCAPE      &kp N1  &kp N2     &kp N3    &kp N4  &kp N5                                   &kp N6     &kp N7  &kp N8     &kp N9   &kp N0         &none
+&kp ESCAPE      &kp N1  &kp N2     &kp N3    &kp N4  &kp N5                                   &kp N6     &kp N7  &kp N8     &kp N9   &kp N0         &to 3
 &kp GRAVE       &kp Q   &kp W      &kp F     &kp P   &kp B                                    &kp J      &kp L   &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
 &kp TAB         &kp A   &kp R      &kp S     &kp T   &kp G                                    &kp M      &kp N   &kp E      &kp I    &kp O          &kp SQT
 &kp LEFT_SHIFT  &kp Z   &kp X      &kp C     &kp D   &kp V      &kp CAPSLOCK     &kp K_POWER  &kp K      &kp H   &kp COMMA  &kp DOT  &kp FSLH       &kp RSHFT
@@ -62,7 +62,7 @@
 
             bindings = <
 &trans  &kp F1            &kp F2         &kp F3          &kp F4                &kp F5                                      &kp F6           &kp F7             &kp F8            &kp F9        &kp F10        &kp F11
-&trans  &trans            &trans         &kp UNDERSCORE  &kp LEFT_BRACE        &trans                                      &trans           &kp RIGHT_BRACE    &kp SINGLE_QUOTE  &trans        &trans         &kp F12
+&trans  &trans            &kp PERIOD     &kp UNDERSCORE  &kp LEFT_BRACE        &trans                                      &trans           &kp RIGHT_BRACE    &kp SINGLE_QUOTE  &kp COMMA     &trans         &kp F12
 &trans  &kp GREATER_THAN  &kp AMPERSAND  &kp DOLLAR      &kp EQUAL             &kp LEFT_BRACKET                            &kp RIGHT_BRACE  &kp DOUBLE_QUOTES  &kp SEMICOLON     &kp PIPE      &kp LESS_THAN  &kp RETURN
 &trans  &trans            &kp PLUS       &kp ASTERISK    &kp LEFT_PARENTHESIS  &trans            &trans       &kp K_POWER  &trans           &kp RPAR           &kp SLASH         &kp QUESTION  &trans         &trans
                           &trans         &trans          &kp LEFT_SHIFT        &kp SPACE         &kp ENTER    &trans       &trans           &trans             &trans            &trans
